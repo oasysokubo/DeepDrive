@@ -7,7 +7,7 @@ def make_coordinates(image, line_parameters):
 	y2 = int(y1 * (3/5))
 	x1 = int((y1-intercept) / slope)
 	x2 = int((y2-intercept) / slope)
-	return np.array([x1, x2, y1, y2])
+	return np.array([x1, y1, x2, y2])
 
 def average_slope_intercept(image, lines):
 	left_fit = []
@@ -58,10 +58,7 @@ canny_image = canny(lane_image)
 cropped_image = region_of_interest(canny_image)
 lines = cv2.HoughLinesP(cropped_image, 2, np.pi/180, 100, np.array([]), minLineLength=40, maxLineGap=5)
 averaged_lines = average_slope_intercept(lane_image, lines)
-
-line_image = display_lines(lane_image, lines) # CHANGE LINE-->AVG_LINES. THERES A PROBLEM WITH
-											  # THE RETURN VAL OF AVERAGE_SLOPE_INTERCEPT
-
+line_image = display_lines(lane_image, averaged_lines)
 combo_image = cv2.addWeighted(lane_image, 0.8, line_image, 1, 1)
 cv2.imshow("result", combo_image)
 cv2.waitKey(0)
