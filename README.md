@@ -32,31 +32,31 @@ foobar.singularize('phenomena') # returns 'phenomenon'
 ```
 
 ## Project Content
-##### Finding Lane Lines #####
+### Finding Lane Lines
 : desc
 
-##### The Perceptron #####
+### The Perceptron 
 : desc
 
-##### Keras #####
+### Keras 
 : desc
 
-##### Multiclass Classification #####
+### Multiclass Classification 
 : desc
 
-##### MNIST Image Recognition #####
+### MNIST Image Recognition 
 : desc
 
-##### Convolutional Neural Network #####
+### Convolutional Neural Network 
 : desc
 
-##### Classification of Road Symbols #####
+### Classification of Road Symbols 
 : desc
 
-##### Polynomial Regression  #####
+### Polynomial Regression 
 : desc
 
-##### Behavioural Cloning  #####
+### Behavioural Cloning  
 : desc
 
 ## License
