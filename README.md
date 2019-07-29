@@ -23,17 +23,10 @@ git clone https://github.com/oasysokubo/Self-Driving-Car.git
 python <file_name>
 ```
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
 
 ## Project Content
 ### Finding Lane Lines
-: desc
+:  A semantic
 
 ### The Perceptron 
 : desc
