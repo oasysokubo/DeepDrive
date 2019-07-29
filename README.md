@@ -17,7 +17,6 @@ Just simply clone the repository by copying the following:
 git clone https://github.com/oasysokubo/Self-Driving-Car.git
 ```
 
-
 ## Usage
 
 ```bash
@@ -32,10 +31,33 @@ foobar.pluralize('goose') # returns 'geese'
 foobar.singularize('phenomena') # returns 'phenomenon'
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Project Content
+##### Finding Lane Lines #####
+: desc
 
-Please make sure to update tests as appropriate.
+##### The Perceptron #####
+: desc
+
+##### Keras #####
+: desc
+
+##### Multiclass Classification #####
+: desc
+
+##### MNIST Image Recognition #####
+: desc
+
+##### Convolutional Neural Network #####
+: desc
+
+##### Classification of Road Symbols #####
+: desc
+
+##### Polynomial Regression  #####
+: desc
+
+##### Behavioural Cloning  #####
+: desc
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
