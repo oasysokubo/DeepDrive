@@ -23,34 +23,5 @@ git clone https://github.com/oasysokubo/Self-Driving-Car.git
 python <file_name>
 ```
 
-
-## Project Content
-### Finding Lane Lines
-:  A semantic
-
-### The Perceptron 
-: desc
-
-### Keras 
-: desc
-
-### Multiclass Classification 
-: desc
-
-### MNIST Image Recognition 
-: desc
-
-### Convolutional Neural Network 
-: desc
-
-### Classification of Road Symbols 
-: desc
-
-### Polynomial Regression 
-: desc
-
-### Behavioural Cloning  
-: desc
-
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
