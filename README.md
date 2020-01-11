@@ -1,4 +1,4 @@
-# Self-Driving Car
+# DeepDrive
 
 This project simulates a fully functional Self-Driving Car with Convolutional Neural 
 Networks and Computer Vision. There are many processes that I have gone through to make
