@@ -33,6 +33,8 @@ The first column of numbers represent the steering angle for the vehicle to foll
 
 1) First things first, we have to install Udacity's Self-Driving Car Simulator to get this thing going. You can do that by visiting the repository and downloading the Version 2, 2/07/17 for any of the Operating Systems (Linux, Mac, or Windows)
 
+[Link to the Simulator](https://github.com/udacity/self-driving-car-sim "Udacity Simulator")
+
 2) Next, please clone my repository to any directory of your choosing. 
 ```bash
 git clone https://github.com/oasysokubo/DeepDrive.git
