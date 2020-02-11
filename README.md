@@ -26,7 +26,7 @@ And now since having gotten rid of the zero angle bias not completely since we s
 
 ## In Action
 ### Output of terminal
-![](img/output.gif)
+![](https://github.com/oasysokubo/DeepDrive/blob/master/img/output.gif)
 The first column of numbers represent the steering angle for the vehicle to follow, next the second, middle column represents the throttle rate, and finally the third and last column represents the speed of the vehicle.
 
 ## Installation
