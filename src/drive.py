@@ -32,8 +32,7 @@ def telemetry(sid, data):
     throttle = 1.0 - speed/speed_limit
     print('{} {} {}'.format(steering_angle, throttle, speed))
     send_control(steering_angle, throttle)
- 
- 
+
  
 @sio.on('connect')
 def connect(sid, environ):
